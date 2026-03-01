@@ -113,10 +113,23 @@
           <div class="bannerTitle">Security Scan recommended.</div>
           <div class="small gray">Watch the surface for errors</div>
         </div>
-        <button class="btn">RUN SECURITY SCAN</button>
+        <button id="scanBtn" class="btn">RUN SECURITY SCAN</button>
       </div>
 
     </section>
   </main>
+
+  <div id ="backend" class="backend hidden">
+
+
+
+    
+    <div class="arena">
+      <canvas id="game" width="520" height="320"></canvas>
+      <p class="gray small">Red circles are bugs in memory.</p>
+    </div>
+  </div>
+
+  <script src="assets/main.js"></script>
 </body>
 </html>
