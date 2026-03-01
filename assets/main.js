@@ -10,3 +10,10 @@ let score = 0;
 let bugs = [];
 
 const puzzles = []
+
+function initilizeBackendGame() {
+    //
+    console.log("Game Restarted!");
+}
+
+scanBtn.addEventListener("click", initializeBackendGame);
